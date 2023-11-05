@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <input type="text" placeholder="Enter the city" id="search">
+        <button type="button" onclick="getWeather()">Search</button>
+        <div class="place">
+            <span id="name"></span>
+            <span id="region"></span>
+            <span id="country"></span>
+        </div>
+        <div class="coords">
+            <span id="lat"></span>
+            <span id="lon"></span>
+        </div>
+
+        <div class="time">
+            <span id="localtime"></span>
+            <span id="utc-offset"></span><br>
+        </div>
+        <div class="info">
+            <span id="temperature"></span>
+            <span id="feels-like"></span>
+            <span id="wind-speed"></span>
+            <span id="wind-degree"></span>
+            <span id="wind-dir"></span>
+            <span id="pressure"></span>
+            <span id="precip"></span>
+            <span id="humidity"></span>
+            <span id="uv-index"></span>
+            <span id="visibility"></span>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
